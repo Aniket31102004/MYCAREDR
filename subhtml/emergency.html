@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Emergency Contacts</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color:#dbe7fa;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+
+        .container {
+
+            background-color: #00313d;
+            
+            border-radius: 50px 50px 10px 10px; /* Round at the edges */
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            padding: 30px;
+            width: 80%;
+            max-width: 600px;
+            margin-top: 250px;
+            
+        }
+
+        h1 {
+            text-align: center;
+            color: #ffffff;
+        }
+
+        h2 {
+            color: #333;
+        }
+
+        .emergency-contacts {
+            margin-bottom: 20px;
+            padding: 20px;
+            margin-bottom: 20px;
+            transition: all 0.3s ease;
+            border-radius: 10px;
+            border: 2px solid #2980b9;
+            background-color: #f3dbff;
+        }
+        .emergency-contacts:hover {
+            transform: scale(1.05); 
+            box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+        }
+        a:hover {
+            text-decoration: underline;
+        }
+
+        .first-aid-tips {
+            margin-bottom: 20px;
+            padding: 20px;
+            margin-bottom: 20px;
+            transition: all 0.3s ease;
+            border-radius: 10px;
+            border: 2px solid #2980b9;
+            background-color: #f3dbff;
+        }
+        .first-aid-tips:hover {
+            transform: scale(1.05); 
+            box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+        }
+
+        .health-care-centers {
+            margin-bottom: 20px;
+            padding: 20px;
+            margin-bottom: 20px;
+            transition: all 0.3s ease;
+            border-radius: 10px;
+            border: 2px solid #2980b9;
+            background-color:#f3dbff;
+        }
+        .health-care-centers:hover {
+            transform: scale(1.05); 
+            box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+        }
+        ul {
+            list-style-type: none;
+            padding: 0;
+        }
+
+        li {
+            margin-bottom: 10px;
+        }
+
+        a {
+            color: #007bff;
+            text-decoration: none;
+        }
+
+        a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Emergency </h1>
+        
+        <div class="emergency-contacts">
+            <h2>Emergency Contacts:</h2>
+            <ul>
+                <li>Emergency Services: 911</li>
+                <li>Poison Control: 1-800-222-1222</li>
+                <li>Local Police Department: <a href="tel:123-456-7890">123-456-7890</a></li>
+                <li>Local Fire Department: <a href="tel:123-456-7890">123-456-7890</a></li>
+            </ul>
+        </div>
+
+        <div class="first-aid-tips">
+            <h2>First Aid Tips:</h2>
+            <ul>
+                <li>Apply pressure to stop bleeding</li>
+                <li>Elevate injured limbs</li>
+                <li>Administer CPR if trained</li>
+                <li>Do not move injured person unless necessary</li>
+            </ul>
+        </div>
+
+        <div class="health-care-centers">
+            <h2>Nearest Health Care Centers:</h2>
+            <ul>
+                <li>Multispeciality Hospital: <a href="https://www.google.com/maps/search/multispeciality+hospital+near+me/@16.8542397,74.6048946,15z/data=!3m1!4b1?entry=ttu" target="_blank">Find Nearest</a></li>
+                <li>Emergency Care Center: <a href="https://www.google.com/maps/search/Emergency+care+center+near+me/@16.8462569,74.5950482,13.09z/data=!4m3!2m2!5m1!4e9?entry=ttu" target="_blank">Find Nearest</a></li>
+                <li>Pharmacy: <a href="https://www.google.com/maps/search/nearby+pharmacy/@37.3489559,-121.9245518,13z/data=!3m1!4b1?entry=ttu" target="_blank">Find Nearest</a></li>
+            </ul>
+        </div>
+    </div>
+</body>
+</html>

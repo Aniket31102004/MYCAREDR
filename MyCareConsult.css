@@ -1,0 +1,108 @@
+ /* CSS styles */
+ body{
+    background-color: #B5C0D0;
+ }
+ #searchInput {
+    margin-left: 100px;
+    width: 300px;
+    padding: 8px;
+    font-size: 16px;
+    border-radius: 5px;
+    box-shadow:3px 3px 3px 3px #938f8f  ;
+}
+
+#inputs{
+    float: right;
+    display: flex;
+    flex-direction: column;
+}
+#title{
+    margin-left: 50px;
+    color: #ffffff;
+    background-color: #3d0098;
+    width: 500px;
+    padding-left: 30px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 6px;
+    border: solid ;
+}
+#symptoms{
+    margin-right: 100px;
+    width: 300px;
+    padding: 8px;
+    font-size: 16px;
+    border-radius: 5px;
+    box-shadow:3px 3px 3px 3px #938f8f  ;
+}
+#timeperiod{
+    
+    width: 300px;
+    padding: 8px;
+    font-size: 16px;
+    border-radius: 5px;
+    box-shadow:3px 3px 3px 3px #938f8f  ;
+}
+#levelofdiscomfort{
+    
+    width: 300px;
+    padding: 8px;
+    font-size: 16px;
+    border-radius: 5px;
+    box-shadow:3px 3px 3px 3px #938f8f  ;
+}
+#searchResults {
+    list-style-type: none;
+    padding: 0;
+    margin-left: 100px;
+    border: solid #FFF3CF;
+    border-width: 5px;
+    width: 250px ;
+    background-color: #FFF3CF;
+
+}
+#searchResults li {
+    cursor: pointer;
+    background-color: #9F70FD;
+    padding: 5px;
+    background-color: #FFF3CF;
+    margin-bottom: 5px;
+    
+    
+}
+#searchResults li:hover {
+    background-color: #C9D7DD;
+    margin-left: 010px;
+}
+#diseaseInfo {
+    display: none;
+    margin-left: 100px;
+    width : 900px;
+    background-color:#637A9F;
+    padding: 30px;
+    color: white;
+    font-weight: bold;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+
+.allinputs {
+    display: flex;
+}
+
+#search {
+    flex: 1;
+    margin-right: 20px; /* Adjust spacing between the two main divs */
+}
+
+.input-column {
+    display: flex;
+    flex-direction: column;
+}
+
+.input-column input {
+    margin-bottom: 10px; /* Adjust vertical spacing between the inputs */
+}
+.diseaseinfo{
+    font-weight: bolder;
+}

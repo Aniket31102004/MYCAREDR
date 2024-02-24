@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MyCareConsult</title>
+    <link rel="stylesheet" href="MyCareConsult.css">
+</head>
+
+<body>
+    <h1 id="title">Search for Disease Information</h1>
+    <div class="allinputs">
+        <div id="search">
+            <input type="text" id="searchInput" placeholder="Enter a disease name...">
+            <ul id="searchResults"></ul>
+        </div>
+        <div id="input">
+            <div class="input-column">
+                <input type="text" id="symptoms" placeholder="Enter symptoms...">
+                <input type="text" id="timeperiod" placeholder="Since when are you suffering?">
+                <input type="text" id="levelofdiscomfort" placeholder="Express your discomfort by ranking out of 5.">
+            </div>
+        </div>
+    </div>
+    
+    
+    <div id="diseaseInfo">
+        <h2 id="diseaseName"></h2>
+        <p id="Criticalness"></p>
+        <p id="homeremedies"></p>
+        <p id="activity"></p>
+        <p id="precautions"></p>
+        <p id="medication"></p>
+        <p id="rechecktime"></p>
+    </div>
+
+    <script src="MyCareConsult.js"></script>
+</body>
+
+</html>

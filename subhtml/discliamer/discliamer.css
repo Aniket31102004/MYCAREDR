@@ -1,0 +1,32 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  font-size: 14px;
+}
+.v2_21 {
+  width: 785px;
+  height: 55px;
+  background: rgba(163,197,236,1);
+  opacity: 1;
+  position: relative;
+  top: 0px;
+  left: 0px;
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+  border-bottom-left-radius: 15px;
+  border-bottom-right-radius: 15px;
+  overflow: hidden;
+}
+.v2_25 {
+  width: 751px;
+  color: rgba(17,45,78,1);
+  position: absolute;
+  top: 17px;
+  left: 17px;
+  font-family: Itim;
+  font-weight: Regular;
+  font-size: 12px;
+  opacity: 1;
+  text-align: center;
+}
